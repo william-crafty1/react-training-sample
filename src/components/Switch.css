@@ -1,0 +1,43 @@
+.Switch-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cssClass{
+    background-color: red;
+    color: white;
+    border: solid 10px red;
+    border-radius: 20px;
+    width: 15%;
+}
+
+.Switch---off{
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    border: solid 10px red;
+}
+
+.Switch---on{
+    background-color: rgb(47, 255, 64);
+    color: black;
+    border: solid 10px rgb(47, 255, 64);
+    border-radius: 20px;
+}
+
+.switch-button{
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    margin: 10px;
+    height: 50px;
+    width: 80px;
+    background-color: orange;
+    color: whitesmoke;
+}
+
+.switch-button:hover{
+    opacity: 0.7;
+}

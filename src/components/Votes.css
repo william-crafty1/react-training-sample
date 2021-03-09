@@ -1,0 +1,40 @@
+.Vote-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Votes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 20%;
+    border: palegoldenrod 5px solid;
+}
+
+.Flavor{
+    display: flex;
+    flex-direction: row;
+}
+
+.Flavor-vote-buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+    text-align: center;
+}
+
+h6{
+    margin-right: 30px;
+}
+
+button{
+    margin: 10px;
+}
